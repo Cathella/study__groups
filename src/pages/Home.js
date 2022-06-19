@@ -16,9 +16,9 @@ export default function Home() {
         </div>
         <div>
           <ul>
-            <li>As a parent watch your child’s confidence build step by step.</li>
-            <li>Students will learn how to learn, not just how to write exams</li>
-            <li>Celebrate life-changing results & happy students.</li>
+            <li><a href='#li1'>As a parent watch your child’s confidence build step by step.</a></li>
+            <li><a href='#li2'>Students will learn how to learn, not just how to write exams</a></li>
+            <li><a href='#li3'>Celebrate life-changing results & happy students.</a></li>
           </ul>
         </div>
         <div className='home-search-section'>

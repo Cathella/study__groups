@@ -7,11 +7,6 @@
   font-family: 'Lexend', sans-serif;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 body {
   background-image: url(./img/bg.svg);
 }
@@ -19,13 +14,20 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 40px 0 80px 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 nav a {
   color: #515050;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .logo {
@@ -33,18 +35,26 @@ nav a {
   font-weight: 600;
   margin: 0 3em 0 0;
   color: #000000;
-  font-size: 23px;
+  font-size: 20px;
 }
 
-.stud-link {
-  color: #ffffff;
-  background: #000000;
-  margin: 0 0 0 4em;
-  padding: 0.7em 1.7em;
+.nav-links button {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-links img {
+  width: 40px;
+}
+
+.hide {
+  display: none;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: -1px;
   color: #000000;
   font-weight: normal;
@@ -53,27 +63,24 @@ h1 {
 
 ul {
   list-style-image: url(./img/Bookmark.svg);
-  margin: 4em 3em 0 2em;
+  margin: 4em 0 0 2em;
 }
 
 ul li {
-  color: #515050;
-  font-size: 20px;
+  font-size: 18px;
   margin: 1em 0 0 0;
   padding: 0;
 }
 
+li a {
+  color: #515050;
+  vertical-align: top;
+  display: inline-block;
+  text-decoration: none;
+}
+
 .desc-section {
-  width: 45%;
-}
-
-.header-img img {
-  width: 550px;
-}
-
-.home-container {
- display: flex;
- justify-content: space-between;
+  width: 100%;
 }
 
 .heading {
@@ -81,9 +88,14 @@ ul li {
 }
 
 .heading img {
-  position: absolute;
+  /* position: absolute;
   bottom: -3em;
-  left: 9em;
+  left: 9em; */
+  display: none;
+}
+
+.header-img img {
+  display: none;
 }
 
 .home-search-section {
@@ -91,9 +103,10 @@ ul li {
 }
 
 .home-search-section .arrow {
-  position: absolute;
+  /* position: absolute;
   bottom: -4em;
-  right: -7em;
+  right: -7em; */
+  display: none;
 }
 
 .home-form {
@@ -102,12 +115,6 @@ ul li {
   padding: 2em;
   border-radius: 12px;
   box-shadow: 0px 16px 32px rgba(4, 9, 33, 0.1);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .group-search {
@@ -137,7 +144,7 @@ input {
   outline: none;
 }
 
-button {
+.group-search button {
   height: 50px;
   border-radius: 0 12px 12px 0;
   border: 1.5px solid #000000;
@@ -148,7 +155,7 @@ button {
   right: 0;
 }
 
-button img {
+.group-search button img {
   width: 25px
 }
 
@@ -162,3 +169,25 @@ footer {
   color: #515050;
   font-size: 15px;
 }
+
+/* 
+
+.stud-link {
+  color: #ffffff;
+  background: #000000;
+  margin: 0 0 0 4em;
+  padding: 0.7em 1.7em;
+}
+
+.home-container {
+ display: flex;
+ justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ */

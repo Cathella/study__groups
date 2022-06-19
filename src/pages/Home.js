@@ -1,9 +1,9 @@
-import React from 'react'
 import HeaderImg from '../img/header-img.svg'
 import ArrowYellow from '../img/arrow-yellow.svg'
 import SearchIcon from '../img/Search.svg'
 import UserIcon from '../img/User.svg'
 import ArrowBlack from '../img/arrow-black.svg'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -45,9 +45,7 @@ export default function Home() {
         <img src={HeaderImg} alt='' />
       </section>
     </div>
-    <footer>
-      <span>&copy; 2022 Study Groups &middot; Nakitto Creations</span>
-    </footer>
+    <Footer />
     </>
   )
 }

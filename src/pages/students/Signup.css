@@ -1,0 +1,26 @@
+.signup-details {
+  width: 38%;
+}
+
+.signup-details h2 {
+  font-size: 35px;
+  letter-spacing: -1px;
+  line-height: 1.6;
+  margin: 1em 0 1em 0;
+}
+
+.signup-details p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #515050;
+  margin: 0 0 8em 0;
+}
+
+.signup-details a {
+  display: block;
+  border: 1.5px solid #000000;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  padding: 0.7em 0;
+}

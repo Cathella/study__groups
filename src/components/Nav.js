@@ -12,7 +12,7 @@ export default function Nav() {
           <button>
             <img src={MenuIcon} alt='' />
           </button>
-          <div className='hide'>
+          <div className='menu'>
             <Link to="teachers/signup">Teachers</Link>
             <Link to="students/signup" className='stud-link'>Students</Link>
           </div>

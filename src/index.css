@@ -49,7 +49,7 @@ nav a {
   width: 40px;
 }
 
-.hide {
+.menu {
   display: none;
 }
 
@@ -87,26 +87,14 @@ li a {
   position: relative;
 }
 
-.heading img {
-  /* position: absolute;
-  bottom: -3em;
-  left: 9em; */
-  display: none;
-}
-
-.header-img img {
+.heading img,
+.header-img img,
+.home-search-section .arrow {
   display: none;
 }
 
 .home-search-section {
   position: relative;
-}
-
-.home-search-section .arrow {
-  /* position: absolute;
-  bottom: -4em;
-  right: -7em; */
-  display: none;
 }
 
 .home-form {
@@ -170,24 +158,100 @@ footer {
   font-size: 15px;
 }
 
-/* 
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 500px;
+    margin: 40px auto 80px auto;
+  }
 
-.stud-link {
-  color: #ffffff;
-  background: #000000;
-  margin: 0 0 0 4em;
-  padding: 0.7em 1.7em;
+  .desc-section {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .heading img {
+    position: absolute;
+    bottom: -3em;
+    right: 4em;
+    display: block;
+  }
+
+  ul li {
+    font-size: 20px;
+    margin: 2em 0 0 0;
+    padding: 0;
+  }
 }
 
-.home-container {
- display: flex;
- justify-content: space-between;
+@media only screen and (min-width: 768px) {
+  .header-img {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .header-img img {
+    display: block;
+    width: 100%;
+    margin: 4em 0 0 0;
+  }
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+@media only screen and (min-width: 992px) {
+  nav {
+    width: 100%;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .nav-links button {
+    display: none;
+  }
+
+  .stud-link {
+    color: #ffffff;
+    background: #000000;
+    margin: 0 0 0 4em;
+    padding: 0.7em 1.7em;
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+   }
+
+  .desc-section {
+    width: 40%;
+  }
+
+  .header-img {
+    width: 45%;
+  }
+
+  .header-img img {
+    margin: 0 0 0 0;
+  }
 }
 
- */
+@media only screen and (min-width: 1200px) {
+  
+
+  .home-search-section .arrow {
+    position: absolute;
+    bottom: -4em;
+    right: -7em;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+}

@@ -110,18 +110,20 @@ li a {
   position: relative;
 }
 
-label {
+.home-form label,
+.signup-form h4 {
   display: flex;
   align-items: center;
 }
 
-label .text {
+.home-form label .text,
+.signup-form h4 .text {
   margin: 0 0 0 0.7em;
   font-family: 20px;
   font-weight: 600;
 }
 
-input {
+.home-form input {
   height: 50px;
   border-radius: 12px;
   border: 1.5px solid #000000;

@@ -1,0 +1,65 @@
+.dashboard-content,
+.dash-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dash-heading {
+  align-items: center;
+  padding-bottom: 0.5em;
+  margin-bottom: 2em;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.dash-heading h4 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.dash-heading h4 img {
+  margin-right: 0.7em
+}
+
+.dash-address,
+.dash-contact,
+.dash-groups {
+  width: 40%;
+  padding: 1.5em 1.7em 2em;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 32px rgba(4, 9, 33, 0.1);
+  border-radius: 12px;
+}
+
+.dash-contact {
+  width: 32%;
+}
+
+.dash-link {
+  width: 20%;
+}
+
+.dash-link a {
+  padding: 2.3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  background: #FFDF91;
+  box-shadow: 0px 16px 32px rgba(4, 9, 33, 0.1);
+  border-radius: 12px;
+  line-height: 2;
+}
+
+.dash-groups {
+  width: 100%;
+  margin-top: 2.5em;
+}
+
+.dash-groups p {
+  text-align: center;
+  padding: 2em 0 3em;
+  color: rgba(0, 0, 0, 0.5);
+}

@@ -59,6 +59,10 @@
   align-items: center;
 }
 
+.heading-label img {
+  margin: 0 0.5em 0 0;
+}
+
 .address-space {
   margin: 2em 3em 1em;
 }
@@ -120,8 +124,6 @@
   border: none;
   cursor: pointer;
 }
-
-
 
 @media only screen and (min-width: 600px) {
   .signup-details,

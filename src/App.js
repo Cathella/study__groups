@@ -8,6 +8,7 @@ import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Address from "./pages/Address";
 import TeacherDashboard from './pages/teachers/Dashboard';
+import StudentDashboard from './pages/students/Dashboard';
 import NewGroup from './pages/teachers/NewGroup';
 import Nav from './components/Nav';
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="teachers/login" element={<TeacherLogin />} />
           <Route path="teachers/signup" element={<TeacherSignup />} />
           <Route path="teachers/dashboard" element={<TeacherDashboard />} />
+          <Route path="students/dashboard" element={<StudentDashboard />} />
           <Route path="/complete-my-profile" element={<Profile />} />
           <Route path="/my-address" element={<Address />} />
           <Route path="/my-contact" element={<Contact />} />

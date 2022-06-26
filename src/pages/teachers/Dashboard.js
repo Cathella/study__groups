@@ -40,7 +40,7 @@ export default function Dashboard() {
             <p>+256750123456</p>
           </div>
           <div className='dash-link'>
-            <Link to=''>
+            <Link to='/teachers/newgroup'>
               <img src={PlusIcon} alt='' />
               <p>Add Study Group</p>
             </Link>

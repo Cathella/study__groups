@@ -10,6 +10,7 @@ import Address from "./pages/Address";
 import TeacherDashboard from './pages/teachers/Dashboard';
 import StudentDashboard from './pages/students/Dashboard';
 import NewGroup from './pages/teachers/NewGroup';
+import Groups from './pages/Groups';
 import Nav from './components/Nav';
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="teachers/newgroup" element={<NewGroup />} />
           <Route path="students/signup" element={<StudentSignup />} />
           <Route path="students/login" element={<StudentLogin />} />
+          <Route path="/groups" element={<Groups />} />
         </Routes>
       </div>
     </BrowserRouter>

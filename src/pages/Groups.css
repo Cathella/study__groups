@@ -1,0 +1,12 @@
+#search-form input {
+  background: #ffffff;
+  border-radius: 0;
+}
+
+#search-form button {
+  border-radius: 0;
+}
+
+#filter-heading {
+  margin-top: 3em;
+}

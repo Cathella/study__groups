@@ -10,3 +10,48 @@
 #filter-heading {
   margin-top: 3em;
 }
+
+.selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection label {
+  margin: 0 0 1em 0;
+}
+
+.selection select {
+  height: 50px;
+  padding: 0 1em;
+  border: 1.5px solid #000000;
+  border-radius: 0;
+  margin: 0 0 2em 0;
+  font-size: 1em;
+}
+
+.grades,
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0 2em 0;
+  padding: 0 0 2em 0;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.subjects {
+  border-bottom: none;
+}
+
+.grades div,
+.subjects div {
+  margin: 0.7em 1em 0 0;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.empty-groups {
+  text-align: center;
+  background: #eeeeee;
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 2em 0;
+}

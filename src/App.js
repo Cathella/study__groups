@@ -11,6 +11,7 @@ import TeacherDashboard from './pages/teachers/Dashboard';
 import StudentDashboard from './pages/students/Dashboard';
 import NewGroup from './pages/teachers/NewGroup';
 import Groups from './pages/Groups';
+import Group from './pages/Group';
 import Nav from './components/Nav';
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="students/signup" element={<StudentSignup />} />
           <Route path="students/login" element={<StudentLogin />} />
           <Route path="/groups" element={<Groups />} />
+          <Route path="/group" element={<Group />} />
         </Routes>
       </div>
     </BrowserRouter>
